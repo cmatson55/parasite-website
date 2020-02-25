@@ -1,0 +1,207 @@
+/* Enter your Styles below! */
+
+body { 
+	font-family: open sans, sans-serif;
+	font-size: 18px;
+	 }
+
+h1, h2, h3, h4 {
+	font-family: open sans, sans-serif;
+}
+p {
+	font-family: eb garamond, serif;
+}
+#div1 {
+	position: relative;
+  
+}
+#div2 {
+	 padding: 50px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+ padding-left: 30px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(90deg);
+  transform-origin: 15% 90%;
+
+}
+#div3 {
+	position: relative;
+  
+}
+#div4 {
+	 padding: 50px;
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+ padding-left: 30px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(90deg);
+  transform-origin: 30% 80%;
+
+}
+#div5 {
+	position: relative;
+  
+}
+#div6 {
+	 padding: 50px;
+  position: absolute;
+  color: #152a3f;
+  font-size:16px;
+  text-transform: uppercase;
+ padding-left: 30px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(90deg);
+  transform-origin: 15% 90%;
+
+}
+#div7 {
+	position: relative;
+  
+}
+#div8 {
+	 padding: 50px;
+  position: absolute;
+  color: #152a3f;
+  font-size: 16px;
+  text-transform: uppercase;
+ padding-left: 30px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -ms-transform-origin: 20% 40%; /* IE 9 */
+  transform: rotate(90deg);
+  transform-origin: 30% 80%;
+
+}
+.subh1 {
+	font-size: 16px;
+	-webkit-transform: rotate(-90deg);
+	float: left;
+	padding-top: 220px;
+	padding-left: -40px;
+	text-transform: uppercase;
+	
+
+}
+.set {
+	padding-left: 0px;
+}
+
+h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	font-style: bold;
+	
+}
+
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 24px;
+}
+
+blockquote {
+	margin: 20px 60px;
+	font-family: Helvetica, sans-serif;
+}
+li a {
+  display: inline;
+  float: left;
+  padding: 8px;
+  color: white;
+}
+.topnav1 a {
+         float: right;
+         font-size: 14px;
+         color: #f8f8f8;
+         text-align: center;
+         text-decoration: none;
+         padding: 30px 30px;
+         padding-right: 50px;
+         text-transform: uppercase;
+         }
+.topnav2 a {
+         float: right;
+         font-size: 14px;
+         color: #152a3f;
+         text-align: center;
+         text-decoration: none;
+         padding: 30px 30px;
+         padding-right: 50px;
+         text-transform: uppercase;
+         }
+.homeheader {
+	
+	background-color: #152a3f;
+	height: 400px;
+
+}
+.img2 {
+	width: 80%;
+	padding-top: 700px;
+	float: right;
+}
+
+main {
+	position: relative;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  }
+
+/* ensures that your images stretch the width of their containers */
+.homeimg { 
+	width: 90%;
+	/*	position: absolute;
+		top: -200px; 
+		right: -200px;*/
+	text-align: right;
+	margin-top: -200px;
+}
+.homepar {
+	width: 600px;
+	padding-left: 200px;
+	padding-top: 700px;
+	color: #152a3f;
+	line-height: 24px;
+	text-align: justify;
+}
+
+
+a { 
+	color: red;
+	text-decoration: none;
+	 }
+a:hover { color: black; }
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 40px;
+	
+	margin: auto;
+}
+
+.grid div {
+	
+	
+}
+
+@media only screen and (min-width:768px) {
+
+}
+
+@media only screen and (min-width:1224px) {
+
+}
