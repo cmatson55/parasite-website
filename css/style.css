@@ -3,6 +3,7 @@
 body { 
 	font-family: open sans, sans-serif;
 	font-size: 18px;
+	color: #152a3f;
 	 }
 
 h1, h2, h3, h4 {
@@ -92,6 +93,13 @@ p {
 .set {
 	padding-left: 0px;
 }
+.plax {
+    	min-height: 400px;
+    	background: transparent;
+		}
+
+		p {color: #fff; width:60%; margin: auto; padding-top: 80px;}
+
 
 h2 {
 	font-size: 20px;
@@ -116,6 +124,7 @@ li a {
   float: left;
   padding: 8px;
   color: white;
+
 }
 .topnav1 a {
          float: right;
@@ -136,6 +145,7 @@ li a {
          padding: 30px 30px;
          padding-right: 50px;
          text-transform: uppercase;
+
          }
 .homeheader {
 	
@@ -144,13 +154,33 @@ li a {
 
 }
 .img2 {
-	width: 80%;
-	padding-top: 700px;
 	float: right;
+	width: 50%;
+	padding-top: -100px;
+	
+	
+}
+hr {
+
 }
 
 main {
-	position: relative;
+	
+}
+.imgbong {
+	width: 30%;
+	float: right;
+}
+.bongpar {
+	width: 400px;
+	padding-left: 250px;
+	padding-top: 450px;
+	color: #152a3f;
+	line-height: 22px;
+	text-align: justify; 
+}
+.bongh2 {
+	float: right;
 }
 
 
@@ -162,12 +192,14 @@ main {
 
 /* ensures that your images stretch the width of their containers */
 .homeimg { 
-	width: 90%;
+	position: relative;
+	width: 70%;
 	/*	position: absolute;
 		top: -200px; 
 		right: -200px;*/
-	text-align: right;
+	float: right;
 	margin-top: -200px;
+
 }
 .homepar {
 	width: 600px;
@@ -179,6 +211,7 @@ main {
 }
 
 
+
 a { 
 	color: red;
 	text-decoration: none;
@@ -187,7 +220,7 @@ a:hover { color: black; }
 
 .grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: auto auto;
 	grid-gap: 40px;
 	
 	margin: auto;
